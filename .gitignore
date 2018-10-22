@@ -1,0 +1,23 @@
+# python stuff
+dist
+*.egg-info
+__pycache__
+
+# binaries
+model
+snapshot
+
+# emacs junk
+*~
+
+# results
+**/*result.txt
+**/predictions*.txt
+
+# keep various incarnations of data out for now
+vp-cnn/data
+vp-cnn/data_phone
+vp-cnn/wilkins*
+
+# ancillary data
+w2v
